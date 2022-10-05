@@ -1,0 +1,57 @@
+{
+        "item" : [  
+                {
+                "itemID" : 1,
+                "itemName" : "ItemA",
+                "itemPrice" : 149.99,
+                "discountCode" : "A01"
+                },
+
+                {
+                "itemID" : 2,
+                "itemName" : "ItemB",
+                "itemPrice" : 250,
+                "discountCode" : "A02"
+                },
+
+                {
+                "itemID" : 3,
+                "itemName" : "ItemC",
+                "itemPrice" : 99.99,
+                "discountCode" : "A01"
+                },
+
+                {
+                "itemID" : 4,
+                "itemName" : "ItemD",
+                "itemPrice" : 140.5,
+                "discountCode" : "A03"
+                },
+
+                {
+                "itemID" : 5,
+                "itemName" : "ItemE",
+                "itemPrice" : 278.5,
+                "discountCode" : "A01"
+                }
+            ],
+
+
+        "discount"   :  [
+                        {
+                        "discountCode":"A01",
+                        "discountPerc":"10"
+                        },
+
+                        {
+                        "discountCode":"A02",
+                        "discountPerc":"20"
+                        },
+                        {
+                        "discountCode":"A03",
+                        "discountPerc":"30"
+                        }
+                        ]
+                    
+}
+    
