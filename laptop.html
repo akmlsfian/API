@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <title>MalwareTECH</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/mlogo.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+  
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<script>
+
+    function showTime() { 
+            let time = new Date(); 
+            let hour = time.getHours(); 
+            let min = time.getMinutes(); 
+            let sec = time.getSeconds(); 
+            am_pm = "AM"; 
+  
+            if (hour > 12) { 
+                hour -= 12; 
+                am_pm = "PM"; 
+            } 
+            if (hour == 0) { 
+                hr = 12; 
+                am_pm = "AM"; 
+            } 
+  
+            hour = hour < 10 ? "0" + hour : hour; 
+            min = min < 10 ? "0" + min : min; 
+            sec = sec < 10 ? "0" + sec : sec; 
+  
+            let currentTime = hour + ":"  
+                + min +":" +sec +" : " + am_pm; 
+  
+            document.getElementById("clock") 
+                .innerHTML = currentTime; 
+        } 
+
+        setInterval(showTime, 1000); 
+</script>
+
+
+<body>
+
+    <div class="main-top">
+        <div class="container-fluid">
+     
+     
+                    <div class="row">
+
+                            <div>
+                                <b><div id="clock"></div></b>
+                            </div>
+                            
+                            <div>
+                                <div class="text-slid-box">
+                                    <div id="offer-box" class="carouselTicker">
+                                        <ul class="offer-box">
+
+                                            <li>
+                                                - We serve info about games and PC related 
+                                            </li>
+                                            <li>
+                                                - You can contact us at 'Contact Us' form ;) 
+                                            </li>
+                                            <li>
+                                                - Always remember to wear mask if you are going outside, We on hardcore gamemode so we don't get to respawn. Just saying :/ 
+                                            </li>
+
+                                            <li>
+                                               - Stay safe in this pandemic era. Your life value as much as a Netherite in Minecraft ;) 
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                    </div>
+                    
+                    
+              
+        </div>
+    </div>
+
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/malwarelogo.png" class="logo" alt=""></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">PRODUCTS</a>
+                            <ul class="dropdown-menu">
+								<li><a href="laptop.html">LAPTOP</a></li>
+                                <li><a href="graphiccard.html">GRAPHIC CARD</a></li>
+                                <li><a href="cpu.html">PROCESSOR</a></li>
+                                <li><a href="mobo.html">MOTHERBOARD</a></li>
+                                <li><a href="psu.html">POWER SUPPLY</a></li>
+                                <li><a href="ram.html">RAM</a></li>
+                                <li><a href="storage.html">STORAGE</a></li>
+                                <li><a href="cooler.html">COOLER</a></li>
+                                <li><a href="casing.html">CASING</a></li>
+                                <li><a href="allprod.html">ALL PRODUCTS</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="games.html">Games</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="loginres.html">Account</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+               
+            </div>
+            
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Main Top -->
+
+
+
+    <hr></hr>
+<div class="main">
+    <div class="title-all text-center">
+        <h1>Laptop</h1>
+    </div>
+</div>
+
+
+   
+
+
+        <!-- Start Shop Page  -->
+        <div class="shop-box-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-9 col-sm-12 col-xs-12 shop-content-right">
+                        <div class="right-product-box">
+
+                            <div class="product-item-filter row">
+                                <div class="col-12 col-sm-8 text-center text-sm-left">
+                                    
+                                    <p>Showing all results</p>
+                                </div>
+
+                                <div class="col-12 col-sm-4 text-center text-sm-right">
+                                    <ul class="nav nav-tabs ml-auto">
+                                        <li>
+                                            <a class="nav-link active" href="#grid-view" data-toggle="tab"> <i class="fa fa-th"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" href="#list-view" data-toggle="tab"> <i class="fa fa-list-ul"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="product-categorie-box">
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade show active" id="grid-view">
+                                        <div class="row">
+
+                                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                <div class="products-single fix">
+                                                    <div class="box-img-hover">
+                                                        <div class="type-lb">
+                                                            <p class="hot">HOT</p>
+                                                        </div>
+                                                        <img src="images/Laptop/ASUS ROG GA401IV.png" class="img-fluid" alt="Image">
+                                                        
+                                                    </div>
+                                                    <div class="why-text">
+                                                        <h4>ASUS ROG GA401IV-BR9N6 - GEFORCE RTX 2060 MAX-Q,14",4900HS,16 GB DDR4-SDRAM, 1 TB SSD</h4>
+                                                        <h5> RM 4900</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                <div class="products-single fix">
+                                                    <div class="box-img-hover">
+                                                        
+                                                        <img src="images/Laptop/ACER NITRO AN515.png" class="img-fluid" alt="Image">
+                                                        
+                                                    </div>
+                                                    <div class="why-text">
+                                                        <h4>ACER NITRO AN515-54-5659 - GEFORCE GTX 1650,15.6",I5-9300H,8 GB DDR4-SDRAM, 512 GB SSD</h4>
+                                                        <h5> RM 2552</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                <div class="products-single fix">
+                                                    <div class="box-img-hover">
+                                                        
+                                                        <img src="images/Laptop/ASUS ROG GA502DU.png" class="img-fluid" alt="Image">
+                                                        
+                                                    </div>
+                                                    <div class="why-text">
+                                                        <h4>ASUS ROG GA502DU-PB73 - GEFORCE GTX 1660 TI,15.6",3750H,8 GB DDR4-SDRAM</h4>
+                                                        <h5> RM 3750</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                <div class="products-single fix">
+                                                    <div class="box-img-hover">
+                                                        
+                                                        <img src="images/Laptop/ASUS TUF GAMING TUF506IU.png" class="img-fluid" alt="Image">
+                                                        
+                                                    </div>
+                                                    <div class="why-text">
+                                                        <h4>ASUS TUF GAMING FA506IU-MS73 - GEFORCE GTX 1660 TI,15.6",4800H,8 GB DDR4-SDRAM, 512 GB SSD</h4>
+                                                        <h5> RM 3746</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                <div class="products-single fix">
+                                                    <div class="box-img-hover">
+                                                        
+                                                        <img src="images/Laptop/ASUS TUF GAMING FX505DT.png" class="img-fluid" alt="Image">
+                                                        
+                                                    </div>
+                                                    <div class="why-text">
+                                                        <h4>ASUS TUF GAMING FX505DT-AH51 - GEFORCE GTX 1650,15.6",3550H,8 GB DDR4-SDRAM, 256 GB SSD</h4>
+                                                        <h5> RM 2950</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          
+                                            
+                                           
+                                            
+                                        </div>
+                                    </div>
+    
+
+    
+                                    <div role="tabpanel" class="tab-pane fade" id="list-view">
+
+                                        <div class="list-view-box">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                    <div class="products-single fix">
+                                                        <div class="box-img-hover">
+                                                            <div class="type-lb">
+                                                                <p class="hot">HOT</p>
+                                                            </div>
+                                                           
+                                                            <img src="images/Laptop/ASUS ROG GA401IV.png" class="img-fluid" alt="Image">
+                                                            <div class="mask-icon">
+                                                                <ul>
+                                                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                                </ul>
+    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                                                    <div class="why-text full-width">
+                                                        <h4>ASUS ROG GA401IV-BR9N6 - GEFORCE RTX 2060 MAX-Q,14",4900HS,16 GB DDR4-SDRAM, 1 TB SSD</h4>
+                                                        <h5> RM 4900</h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="list-view-box">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                    <div class="products-single fix">
+                                                        <div class="box-img-hover">
+                                                           
+                                                            <img src="images/Laptop/ACER NITRO AN515.png" class="img-fluid" alt="Image">
+                                                            <div class="mask-icon">
+                                                                <ul>
+                                                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                                </ul>
+    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                                                    <div class="why-text full-width">
+                                                        <h4>ACER NITRO AN515-54-5659 - GEFORCE GTX 1650,15.6",I5-9300H,8 GB DDR4-SDRAM, 512 GB SSD</h4>
+                                                        <h5>RM 2552</h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        <div class="list-view-box">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                    <div class="products-single fix">
+                                                        <div class="box-img-hover">
+                                                            
+                                                            <img src="images/Laptop/ASUS ROG GA502DU.png" class="img-fluid" alt="Image">
+                                                            <div class="mask-icon">
+                                                                <ul>
+                                                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                                    
+                                                                </ul>
+    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                                                    <div class="why-text full-width">
+                                                        <h4>ASUS ROG GA502DU-PB73 - GEFORCE GTX 1660 TI,15.6",3750H,8 GB DDR4-SDRAM</h4>
+                                                        <h5>RM 3750</h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="list-view-box">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                    <div class="products-single fix">
+                                                        <div class="box-img-hover">
+                                                            
+                                                            <img src="images/Laptop/ASUS TUF GAMING TUF506IU.png" class="img-fluid" alt="Image">
+                                                            <div class="mask-icon">
+                                                                <ul>
+                                                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                                    
+                                                                </ul>
+    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                                                    <div class="why-text full-width">
+                                                        <h4>ASUS TUF GAMING FA506IU-MS73 - GEFORCE GTX 1660 TI,15.6",4800H,8 GB DDR4-SDRAM, 512 GB SSD</h4>
+                                                        <h5>RM 3746</h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="list-view-box">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                                                    <div class="products-single fix">
+                                                        <div class="box-img-hover">
+                                                            
+                                                            <img src="images/Laptop/ASUS TUF GAMING FX505DT.png" class="img-fluid" alt="Image">
+                                                            <div class="mask-icon">
+                                                                <ul>
+                                                                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
+                                                                    
+                                                                </ul>
+    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-8 col-xl-8">
+                                                    <div class="why-text full-width">
+                                                        <h4>ASUS TUF GAMING FX505DT-AH51 - GEFORCE GTX 1650,15.6",3550H,8 GB DDR4-SDRAM, 256 GB SSD</h4>
+                                                        <h5>RM 2950</h5>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+    
+                    <div class="col-xl-3 col-lg-3 col-sm-12 col-xs-12 sidebar-shop-left">
+                        <div class="product-categori">
+                            
+                            <div class="filter-sidebar-left">
+                                <div class="title-left">
+                                    <h3>Categories</h3>
+                                </div>
+                                <div class="list-group list-group-collapse list-group-sm list-group-tree" id="listprod" >
+                                    
+                                    <a href="laptop.html" class="list-group-item list-group-item-action"> Laptop  <small class="text-muted">(5) </small></a>
+                                    <a href="graphiccard.html" class="list-group-item list-group-item-action"> Graphic Card <small class="text-muted">(9)</small></a>
+                                    <a href="cpu.html" class="list-group-item list-group-item-action"> Processor <small class="text-muted">(8)</small></a>
+                                    <a href="mobo.html" class="list-group-item list-group-item-action"> Motherboard <small class="text-muted">(5)</small></a>
+                                    <a href="psu.html" class="list-group-item list-group-item-action"> Power Supply <small class="text-muted">(5)</small></a>
+                                    <a href="ram.html" class="list-group-item list-group-item-action"> RAM <small class="text-muted">(5)</small></a>
+                                    <a href="storage.html" class="list-group-item list-group-item-action"> Storage <small class="text-muted">(6)</small></a>
+                                    <a href="casing.html" class="list-group-item list-group-item-action"> Casing <small class="text-muted">(8)</small></a>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Shop Page -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- Start Footer  -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+				
+					
+					
+					
+				
+				<hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>About MalwareTECH</h4>
+                            <p>We made this blog to showcase our interest in the PC Gaming Community as well as a platform for Gamers and Tech Savvy meet
+                            </p> 
+							<p>Our Objective is to serve info that are related to Gaming community as well as PC Builder community so they get a latest and trusted report from us</p> 							
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Address: 398, Jalan Kenanga 7/5 <br>Persiaran Amanjaya 5, 08000 Sungai Petani<br>Kedah Darul Aman</p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+06-0194320001">(+06)0194320001</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:akmalsir46@gmail.com">akmalsir46@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-link-contact">
+							<h4>Social Media</h4>
+							<p>Follow me on my social media</p>
+							<ul>
+                                        <li>
+                                            <p><i class="fab fa-facebook"></i><a href="https://www.facebook.com/therealakmalchan">Mal</a></p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fab fa-google-plus"></i><a href="mailto:akmalsir46@gmail.com">akmalsir46@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fab fa-whatsapp"></i><a href="tel:+06-194320001">(+60)194320001</a></p>
+                                        </li>
+
+                            </ul>
+                            
+						</div>
+					</div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+    <!-- Start copyright  -->
+    <div class="footer-copyright">
+        <p class="footer-company">All Rights Reserved. &copy; 2020 <a href="#">MalwareTECH</a> Design By : akmlsfian</p>
+    </div>
+    <!-- End copyright  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Metas -->
+    <title>MalwareTECH</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/mlogo.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+  
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<script>
+
+    function showTime() { 
+            let time = new Date(); 
+            let hour = time.getHours(); 
+            let min = time.getMinutes(); 
+            let sec = time.getSeconds(); 
+            am_pm = "AM"; 
+  
+            if (hour > 12) { 
+                hour -= 12; 
+                am_pm = "PM"; 
+            } 
+            if (hour == 0) { 
+                hr = 12; 
+                am_pm = "AM"; 
+            } 
+  
+            hour = hour < 10 ? "0" + hour : hour; 
+            min = min < 10 ? "0" + min : min; 
+            sec = sec < 10 ? "0" + sec : sec; 
+  
+            let currentTime = hour + ":"  
+                + min +":" +sec +" : " + am_pm; 
+  
+            document.getElementById("clock") 
+                .innerHTML = currentTime; 
+        } 
+
+        setInterval(showTime, 1000); 
+</script>
+
+
+<body>
+
+    <div class="main-top">
+        <div class="container-fluid">
+     
+     
+                    <div class="row">
+
+                            <div>
+                                <b><div id="clock"></div></b>
+                            </div>
+                            
+                            <div>
+                                <div class="text-slid-box">
+                                    <div id="offer-box" class="carouselTicker">
+                                        <ul class="offer-box">
+
+                                            <li>
+                                                - We serve info about games and PC related 
+                                            </li>
+                                            <li>
+                                                - You can contact us at 'Contact Us' form ;) 
+                                            </li>
+                                            <li>
+                                                - Always remember to wear mask if you are going outside, We on hardcore gamemode so we don't get to respawn. Just saying :/ 
+                                            </li>
+
+                                            <li>
+                                               - Stay safe in this pandemic era. Your life value as much as a Netherite in Minecraft ;) 
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                    </div>
+                    
+                    
+              
+        </div>
+    </div>
+
+    <header class="main-header">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/malwarelogo.png" class="logo" alt=""></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">PRODUCTS</a>
+                            <ul class="dropdown-menu">
+								<li><a href="laptop.html">LAPTOP</a></li>
+                                <li><a href="graphiccard.html">GRAPHIC CARD</a></li>
+                                <li><a href="cpu.html">PROCESSOR</a></li>
+                                <li><a href="mobo.html">MOTHERBOARD</a></li>
+                                <li><a href="psu.html">POWER SUPPLY</a></li>
+                                <li><a href="ram.html">RAM</a></li>
+                                <li><a href="storage.html">STORAGE</a></li>
+                                <li><a href="cooler.html">COOLER</a></li>
+                                <li><a href="casing.html">CASING</a></li>
+                                <li><a href="allprod.html">ALL PRODUCTS</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="games.html">Games</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="loginres.html">Account</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+
+               
+            </div>
+            
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Main Top -->
+
+    <!-- Start Slider -->
+    <div id="slides-shop" class="cover-slides">
+        <ul class="slides-container">
+            <li class="text-center">
+                <img src="images/1.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">Welcome To <br> <strong>Malware</strong>TECH</h1>
+                            <p class="m-b-40">Website For PC Gamers and <br>Tech savvy <br> Register now!</p>
+                            <p><a class="btn hvr-hover" href="loginres.html">Register</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="images/2.png" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">Welcome To <br> <strong>Malware</strong>TECH</h1>
+                            <p class="m-b-40">Website For PC Gamers and <br>Tech savvy <br> Register now!</p>
+                            <p><a class="btn hvr-hover" href="loginres.html">Register</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="text-center">
+                <img src="images/3.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">Welcome To <br> <strong>Malware</strong>TECH</h1>
+                            <p class="m-b-40">Website For PC Gamers and <br>Tech savvy <br> Register now!</p>
+                            <p><a class="btn hvr-hover" href="loginres.html">Register</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="text-center">
+                <img src="images/5.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">Welcome To <br> <strong>Malware</strong>TECH</h1>
+                            <p class="m-b-40">Website For PC Gamers and <br>Tech savvy <br> Register now!</p>
+                            <p><a class="btn hvr-hover" href="loginres.html">Register</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="text-center">
+                <img src="images/4.jpg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="m-b-20">Welcome To <br> <strong>Malware</strong>TECH</h1>
+                            <p class="m-b-40">Website For PC Gamers and <br>Tech savvy <br> Register now!</p>
+                            <p><a class="btn hvr-hover" href="loginres.html">Register</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+        <div class="slides-navigation">
+            <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <!-- End Slider -->
+
+    <!-- Start Categories  -->
+    <div class="categories-shop">
+        <div class="title-all text-center">
+            <h1>What's Hot In Store?</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <p><div class="title-all text-center">ASUS ROG GA401IV-BR9N6 - GEFORCE RTX 2060 MAX-Q,14"</div></p>
+                        <img class="img-fluid" src="images/Laptop.png" alt="" />
+                        <a class="btn hvr-hover" href="laptop.html">Laptop</a>
+                    </div>
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <p><div class="title-all text-center">AMD RYZEN 9 3900X 12-CORE, 24-THREAD</div></p>
+                        <img class="img-fluid" src="images/CPU.png" alt="" />
+                        <a class="btn hvr-hover" href="cpu.html">Processor</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="shop-cat-box">
+                        <p><div class="title-all text-center">NVIDIA GEFORCE RTX-3080 VENTUS 3X 10GB</div></p>
+                        <img class="img-fluid" src="images/GPU.png" alt="" />
+                        <a class="btn hvr-hover" href="graphiccard.html">Graphic Card</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                        <div class="text-center container" style="size: 100px;">
+
+                        <a class="btn hvr-hover" href="allprod.html" style="font-size: 20px;"><b>See All Products</b></a>
+
+                        </div>
+
+    </div>
+
+    
+    <!-- End Categories -->
+    
+
+    <!-- Start Blog  -->
+    <div class="latest-blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-all text-center">
+                        <h1>Top 3 Games in 2020</h1>
+                        <p>2020 is a tough year for everyone, but at least we got a good games around</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="images/Ghostrunner.png" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h1><div class="title-all text-center">Rating : 8/10</div></h1>
+                                <h3><a href="ghostrunner.html"><div class="title-all text-center">Ghostrunner</div></a></h3>
+                                <p>Taking place in a cyberpunk-themed post apocalypse, Ghostrunner tells the story of a cybernetically enhanced swordsmen who awakens after getting thrown out of a tower with little memory of what happened to him, who he is, or why he feels compelled to immediately plunge a sword into the poor soul waiting below him. </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="images/Doom Eternal.png" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h1><div class="title-all text-center">Rating : 9/10</div></h1>
+                                <h3><a href="doom-eternal.html"><div class="title-all text-center">Doom Eternal</div></a></h3>
+                                <p>Doom Eternal has risen from the depths of hell as the sequel to Doom 2016, continuing its predecessors' legacy of mixing old and new in hopes of revitalizing the FPS genre. Although Doom 2016 had its shortcomings, these initial ideas now serve as the spine for a complete new vision for what Doom truly is.</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img class="img-fluid" src="images/Tony Hawk.png" alt="" />
+                        </div>
+                        <div class="blog-content">
+                            <div class="title-blog">
+                                <h1><div class="title-all text-center">Rating : 9/10</div></h1>
+                                <h3><a href="tony-hawk-1-2.html"><div class="title-all text-center">Tony Hawk Pro Skater 1+2</div></a></h3>
+                                <p>THPS1+2 pushes off on the right foot immediately, with a fantastic intro fusing footage of the iconic stars of the original games with clips of the new skateboarding superstars joining the roster. It shouldn’t be understated how effectively this otherwise fairly simple sizzle reel instantly injects these new skaters into the fabric of Pro Skater.</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Blog  -->
+
+
+    
+
+     <!-- Start Footer  -->
+     <footer>
+        <div class="footer-main">
+            <div class="container">
+				
+					
+					
+					
+				
+				<hr>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-widget">
+                            <h4>About MalwareTECH</h4>
+                            <p>We made this blog to showcase our interest in the PC Gaming Community as well as a platform for Gamers and Tech Savvy meet
+                            </p> 
+							<p>Our Objective is to serve info that are related to Gaming community as well as PC Builder community so they get a latest and trusted report from us</p> 							
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="footer-link-contact">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fas fa-map-marker-alt"></i>Address: 398, Jalan Kenanga 7/5 <br>Persiaran Amanjaya 5, 08000 Sungai Petani<br>Kedah Darul Aman</p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+06-0194320001">(+06)0194320001</a></p>
+                                </li>
+                                <li>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:akmalsir46@gmail.com">akmalsir46@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="footer-link-contact">
+							<h4>Social Media</h4>
+							<p>Follow me on my social media</p>
+							<ul>
+                                        <li>
+                                            <p><i class="fab fa-facebook"></i><a href="https://www.facebook.com/therealakmalchan">Mal</a></p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fab fa-google-plus"></i><a href="mailto:akmalsir46@gmail.com">akmalsir46@gmail.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fab fa-whatsapp"></i><a href="tel:+06-194320001">(+60)194320001</a></p>
+                                        </li>
+
+                            </ul>
+                            
+						</div>
+					</div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+    <!-- Start copyright  -->
+    <div class="footer-copyright">
+        <p class="footer-company">All Rights Reserved. &copy; 2020 <a href="#">MalwareTECH</a> Design By : akmlsfian</p>
+    </div>
+    <!-- End copyright  -->
+
+    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/inewsticker.js"></script>
+    <script src="js/bootsnav.js."></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
